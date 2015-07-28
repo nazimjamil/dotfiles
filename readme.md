@@ -1,8 +1,6 @@
-# Paul's dotfiles.
+# Naz's dotfiles.
 
 [mathias's readme](https://github.com/mathiasbynens/dotfiles/) is awesome. go read it.
-
-This repo is mostly for me but you're welcome to make suggestions. Mathias's is the project to fork.  I'm mostly catching up to him, @cowboy, and @gf3.
 
 ## install the neccessary apps
 
@@ -16,7 +14,7 @@ I do something nice with my `PATH` there:
 
 ```shell
 # PATH like a bawss
-      PATH=/opt/local/bin
+PATH=/opt/local/bin
 PATH=$PATH:/opt/local/sbin
 PATH=$PATH:/bin
 PATH=$PATH:~/.rvm/bin
@@ -30,7 +28,7 @@ export PATH
 
 …is really important. even for these files.
 
-Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text 2 Package Control](http://wbond.net/sublime_packages/package_control)
+Install [Dotfiles Syntax Highlighting](https://github.com/mattbanks/dotfiles-syntax-highlighting-st2) via [Sublime Text Package Control](http://wbond.net/sublime_packages/package_control)
 
 
 ### Sensible OS X defaults

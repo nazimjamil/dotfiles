@@ -1,5 +1,6 @@
-# up to you (me) if you want to run this as a file or copy paste at your leisure
+# Based of paulirish dotfiles
 
+# up to you (me) if you want to run this as a file or copy paste at your leisure
 
 # https://github.com/jamiew/git-friendly
 # the `push` command which copies the github compare URL to my clipboard is heaven
@@ -32,25 +33,5 @@ chmod +x ~/code/z/z.sh
 # add this to the bash_profile file if it aint there.
 #   . ~/code/z/z.sh
 
-
-cd ~/code
-git clone git://github.com/dronir/SpotifyControl.git
-
-
-
-# my magic photobooth symlink -> dropbox. I love it.
-# first move Photo Booth folder out of Pictures
-# then start Photo Booth. It'll ask where to put the library.
-# put it in Dropbox/public
-
-# now you can record photobooth videos quickly and they upload to dropbox DURING RECORDING
-# then you grab public URL and send off your video message in a heartbeat.
-
-
 # for the c alias (syntax highlighted cat)
 sudo easy_install Pygments
-
-
-# chrome canary as default
-# on a mac you can set chrome canary as your default inside of Safari preferences :)
-
